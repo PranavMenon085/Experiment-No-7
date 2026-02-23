@@ -116,7 +116,35 @@ while i <= 3:
     print()
     i += 1
 
-7) To print numbers up to a given limit using while loop
+7) To print numbers from 1 to 5 using while loop
+
+This program prints numbers from 1 to 5 sequentially using a while loop with a hardcoded upper limit. The counter variable i starts at 1 and is incremented after each print until the condition i<=5 becomes False.
+
+Logic: Initialize i=1, while i<=5 print i and increment i by 1
+
+Syntax:
+i = 1
+while i <= 5:
+    print(i)
+    i += 1
+
+Output: 1 2 3 4 5
+
+8) To print numbers from 1 to 10 using while loop
+
+This program prints numbers from 1 to 10 sequentially using a while loop with a hardcoded upper limit. It extends the previous program by changing the loop condition to i<=10, demonstrating how the same while loop structure scales to different ranges.
+
+Logic: Initialize i=1, while i<=10 print i and increment i by 1
+
+Syntax:
+i = 1
+while i <= 10:
+    print(i)
+    i += 1
+
+Output: 1 2 3 4 5 6 7 8 9 10
+
+9) To print numbers up to a given limit using while loop
 
 This program prints numbers sequentially from 1 up to a user-specified limit using a while loop. The counter variable is incremented in each iteration until the condition becomes False.
 
@@ -129,7 +157,7 @@ while i <= n:
     print(i)
     i = i + 1
 
-8) To calculate the factorial of a given number
+10) To calculate the factorial of a given number
 
 This program computes the factorial of a positive integer using a while loop. It multiplies successive integers from 1 to n. Input validation is performed to handle negative numbers.
 
@@ -147,7 +175,7 @@ if(n > 0):
 else:
     print("Invalid!Please try again")
 
-9) To display Fibonacci Series up to n terms
+11) To display Fibonacci Series up to n terms
 
 This program generates the Fibonacci series for a given number of terms. It uses two variables to track the previous two numbers, updating them in each iteration to produce the next term.
 
@@ -165,7 +193,7 @@ while i <= n:
     b = c
     i += 1
 
-10) To display Fibonacci Series up to a given limit
+12) To display Fibonacci Series up to a given limit
 
 This program prints all Fibonacci numbers up to a specified limit value. Instead of counting terms, it continues as long as the current Fibonacci number does not exceed the limit.
 
@@ -181,7 +209,7 @@ while a <= limit:
     a = b
     b = c
 
-11) To reverse a number using while loop
+13) To reverse a number using while loop
 
 This program reverses the digits of a given integer using repeated modulo and integer division operations. The last digit is extracted using modulo 10, appended to the reversed number, and the original number is reduced by floor division.
 
@@ -196,7 +224,7 @@ while n > 0:
     n //= 10
 print("The reverse of the number is :", rev)
 
-12) To check if a number is palindrome or not
+14) To check if a number is palindrome or not
 
 This program checks whether a number reads the same forwards and backwards. It reverses the digits using the same logic as number reversal, then compares the reversed number with the original.
 
@@ -215,7 +243,7 @@ if(rev == temp):
 else:
     print("The number is not a palindrome")
 
-13) To check if a string is palindrome or not
+15) To check if a string is palindrome or not
 
 This program checks whether a string is a palindrome using two approaches: the two-pointer technique with a while loop, and Python's slicing operator. A palindrome reads the same forwards and backwards.
 
@@ -241,7 +269,7 @@ if str == rev:
 else:
     print("Not a Palindrome")
 
-14) To calculate the number of digits in a number
+16) To calculate the number of digits in a number
 
 This program counts the total number of digits in a given integer by repeatedly dividing it by 10 and incrementing a counter until the number becomes 0.
 
@@ -255,7 +283,7 @@ while num > 0:
     num = num // 10
 print("Number of digits are : ", count)
 
-15) To search for an element from a list
+17) To search for an element from a list
 
 This program performs a linear search on a list to find a user-specified element. It traverses the list using a while loop and prints the index if found. The while-else construct handles the case when the element is absent.
 
@@ -273,7 +301,7 @@ while i < len(nums):
 else:
     print("Element not found")
 
-16) To print odd numbers using while loop
+18) To print odd numbers using while loop
 
 This program prints all odd numbers up to a given limit using two different approaches: starting from 1 and incrementing by 2, and using the continue statement to skip even numbers.
 
@@ -297,11 +325,11 @@ while i < 10:
 
 ALGORITHMS:
 
-Algorithm 1: Print Numbers up to 5
+Algorithm 1: Print Numbers from 1 to 5 (Hardcoded Limit)
 
 Step 1: Start
 
-Begin the process of printing numbers sequentially up to 5
+Begin the process of printing numbers sequentially from 1 to 5
 
 Step 2: Initialize counter variable
 
@@ -333,7 +361,43 @@ Step 7: Stop
 
 End the algorithm
 
-Algorithm 2: Print Numbers up to User-Input Value
+Algorithm 2: Print Numbers from 1 to 10 (Hardcoded Limit)
+
+Step 1: Start
+
+Begin the process of printing numbers sequentially from 1 to 10
+
+Step 2: Initialize counter variable
+
+Command: i = 1
+Function: Variable assignment
+Source: Built-in Python operation (no import required)
+
+Step 3: Check loop condition
+
+Command: while i <= 10:
+Function: <= - Less than or equal to comparison operator
+Source: Built-in Python operator (no import required)
+
+Step 4: Print current value of i
+
+Command: print(i)
+Function: print() - Built-in output function
+Source: Built-in Python function (no import required)
+
+Step 5: Increment counter
+
+Command: i += 1
+Function: += - Augmented addition assignment operator
+Source: Built-in Python operator (no import required)
+
+Step 6: Return to Step 3 and repeat until condition is False
+
+Step 7: Stop
+
+End the algorithm
+
+Algorithm 3: Print Numbers up to User-Input Value
 
 Step 1: Start
 
@@ -376,7 +440,7 @@ Step 8: Stop
 
 End the algorithm
 
-Algorithm 3: Factorial of a Given Number
+Algorithm 4: Factorial of a Given Number
 
 Step 1: Start
 
@@ -440,7 +504,7 @@ Step 11: Stop
 
 End the algorithm
 
-Algorithm 4: Fibonacci Series up to N Terms
+Algorithm 5: Fibonacci Series up to N Terms
 
 Step 1: Start
 
@@ -499,7 +563,7 @@ Step 10: Stop
 
 End the algorithm
 
-Algorithm 5: Fibonacci Series up to a Given Limit
+Algorithm 6: Fibonacci Series up to a Given Limit
 
 Step 1: Start
 
@@ -550,7 +614,7 @@ Step 9: Stop
 
 End the algorithm
 
-Algorithm 6: Reverse a Number
+Algorithm 7: Reverse a Number
 
 Step 1: Start
 
@@ -606,7 +670,7 @@ Step 10: Stop
 
 End the algorithm
 
-Algorithm 7: Check if a Number is Palindrome
+Algorithm 8: Check if a Number is Palindrome
 
 Step 1: Start
 
@@ -678,7 +742,7 @@ Step 12: Stop
 
 End the algorithm
 
-Algorithm 8A: Check if a String is Palindrome (Method 1 - Two Pointer)
+Algorithm 9A: Check if a String is Palindrome (Method 1 - Two Pointer)
 
 Step 1: Start
 
@@ -746,7 +810,7 @@ Step 11: Stop
 
 End the algorithm
 
-Algorithm 8B: Check if a String is Palindrome (Method 2 - Slicing)
+Algorithm 9B: Check if a String is Palindrome (Method 2 - Slicing)
 
 Step 1: Start
 
@@ -788,7 +852,7 @@ Step 7: Stop
 
 End the algorithm
 
-Algorithm 9: Count Number of Digits in a Number
+Algorithm 10: Count Number of Digits in a Number
 
 Step 1: Start
 
@@ -837,7 +901,7 @@ Step 9: Stop
 
 End the algorithm
 
-Algorithm 10: Linear Search in a List
+Algorithm 11: Linear Search in a List
 
 Step 1: Start
 
@@ -904,7 +968,7 @@ Step 11: Stop
 
 End the algorithm
 
-Algorithm 11A: Print Odd Numbers (Method 1 - Increment by 2)
+Algorithm 12A: Print Odd Numbers (Method 1 - Increment by 2)
 
 Step 1: Start
 
@@ -950,7 +1014,7 @@ Step 8: Stop
 
 End the algorithm
 
-Algorithm 11B: Print Odd Numbers (Method 2 - Using continue)
+Algorithm 12B: Print Odd Numbers (Method 2 - Using continue)
 
 Step 1: Start
 
