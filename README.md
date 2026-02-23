@@ -128,8 +128,6 @@ while i <= 5:
     print(i)
     i += 1
 
-Output: 1 2 3 4 5
-
 8) To print numbers from 1 to 10 using while loop
 
 This program prints numbers from 1 to 10 sequentially using a while loop with a hardcoded upper limit. It extends the previous program by changing the loop condition to i<=10, demonstrating how the same while loop structure scales to different ranges.
@@ -141,8 +139,6 @@ i = 1
 while i <= 10:
     print(i)
     i += 1
-
-Output: 1 2 3 4 5 6 7 8 9 10
 
 9) To print numbers up to a given limit using while loop
 
