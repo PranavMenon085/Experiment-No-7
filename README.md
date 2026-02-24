@@ -177,17 +177,6 @@ This program generates the Fibonacci series for a given number of terms. It uses
 
 Logic: Initialize a=0, b=1; in each iteration print a, compute next term c=a+b, shift a=b, b=c
 
-Syntax:
-n = int(input("Enter the number of terms : "))
-i = 1
-a = 0
-b = 1
-while i <= n:
-    print(a, end=" ")
-    c = a + b
-    a = b
-    b = c
-    i += 1
 
 12) To display Fibonacci Series up to a given limit
 
@@ -226,18 +215,6 @@ This program checks whether a number reads the same forwards and backwards. It r
 
 Logic: Store original in temp, reverse n, if rev==temp then palindrome else not palindrome
 
-Syntax:
-n = int(input("Enter the number : "))
-temp = n
-rev = 0
-while n > 0:
-    d = n % 10
-    rev = (rev * 10) + d
-    n //= 10
-if(rev == temp):
-    print("The number is a palindrome")
-else:
-    print("The number is not a palindrome")
 
 15) To check if a string is palindrome or not
 
@@ -402,7 +379,6 @@ Begin the process of printing numbers up to a user-specified limit
 Step 2: Accept input from user
 
 Command: n = int(input("Enter the number of terms : "))
-Function: input() - Built-in function for accepting user input as string
 Function: int() - Built-in function to convert string to integer
 Source: Built-in Python functions (no import required)
 
