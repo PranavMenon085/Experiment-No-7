@@ -651,7 +651,6 @@ Begin palindrome check process
 Step 2: Accept integer input from user
 
 Command: n = int(input("Enter the number : "))
-Function: input() - Built-in function for user input
 Function: int() - Built-in function for integer conversion
 Source: Built-in Python functions (no import required)
 
