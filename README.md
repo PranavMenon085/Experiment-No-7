@@ -105,7 +105,7 @@ Example: Searching for 20 in [10, 20, 30, 40, 50] → Found at Index 1
 
 ALGORITHMS
 
-Algorithm 1: Print Numbers 1 to 5
+Algorithm 1: Print Numbers 
 Step 1: Start
 
 Step 2: Initialize counter variable
@@ -129,6 +129,19 @@ Step 5: Increment counter
    - Function: += - Augmented addition assignment operator
    - Source: Built-in Python operator (no import required)
 Step 7: Stop
+
+OR 
+To print Numbers from 1 to 10 :
+- Change the condition to while i<=11
+- print(i)
+- Increment i (i+=1)
+
+  OR
+  To print 'N' Numbers :
+  - Input the Number
+  - Change the condition to while i<=number
+- print(i)
+- Increment i (i+=1)
 Algorithm 2: Factorial of a Given Number
 Step 1: Start
 
